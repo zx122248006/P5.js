@@ -20,6 +20,7 @@ class Particle {
     // 获取视频捕获的画面中的颜色
     let px = floor(this.x / vScale);
     let py = floor(this.y / vScale);
+    
     let col = video.get(px, py);
     // console.log(col)
     fill(col[0], col[1], col[2], 150)

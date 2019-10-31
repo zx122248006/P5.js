@@ -13,11 +13,11 @@ function setup () {
   for (let i = 0; i < 200; i++) {
     particles[i] = new Particle(random(width), random(height));
   }
-  // background(51);
+  background(51);
 }
 
 function draw () {
-  background(51);
+  // background(51);
   video.loadPixels();
 
   // 将点进行循环

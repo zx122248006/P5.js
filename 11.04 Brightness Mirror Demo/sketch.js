@@ -13,7 +13,7 @@ function draw () {
 
   video.loadPixels();
   // 使video 将显示窗口的像素资料加载到 pixels[] 数组里。这函数必须在读写 pixels[] 之前被调用。注意只有使用 set() 或直接修改 pixels[] 的改变会发生。
-
+z
   // loadPixels()
 
   // 这次是要实现像素的效果

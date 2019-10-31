@@ -48,6 +48,7 @@ function draw () {
     // tint(255, 50)
 
     // ???笔记本卡。。不知道怎么来的。
+    // farmeCount 是每秒的帧数
     let index = (i + frameCount) % snapshots.length
 
     // console.log((i + frameCount))
