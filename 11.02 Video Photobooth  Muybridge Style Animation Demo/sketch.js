@@ -12,7 +12,6 @@ function setup () {
   video.size(320, 240)
   // button = createButton('snap')
   // button.mousePressed(takesnap)
-
 }
 
 let go = false;
@@ -21,10 +20,10 @@ function redady () {
   go = true;
 }
 
-function takesnap () {
-  // 将当前的画面添加到画布中
+// function takesnap () {
+  // 点击按钮之后，将当前的画面添加到画布中
   // image(video, 0, 0,mouseX,height)
-}
+// }
 
 function draw () {
   //   // tint(255, 0, 150)
@@ -53,8 +52,8 @@ function draw () {
 
     // console.log((i + frameCount))
 
-    image(snapshots[index], x, y, w, h)
-    x = x + w
+    image(snapshots[index], x, y, w, h);
+    x = x + w;
     if (x > width) {
       x = 0;
       y = y + h
